@@ -1,0 +1,160 @@
+body{
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+/*NavBar*/
+/*Text*/
+@font-face {
+  font-family: 'Lavanderia';
+  src: url('Lavanderia-Regular.eot');
+  src: url('Lavanderia-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Lavanderia-Regular.woff') format('woff'),
+    url('Lavanderia-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+a.navbar-brand {
+  font-family: 'Lavanderia';
+  font-size: 30.5px;
+	color: rgb(237, 109, 175) !important;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.navlinks{
+    font-family: 'Lobster', cursive;
+    font-size: 18.5px;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a{
+    color: #ED6DAF;
+}
+
+/*Jumbotron*/
+.jumbotron {
+    background: #1b222a url(../img/games_bg.png) no-repeat top center; 
+    color: white;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+#you{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+.em-text{
+    color: limegreen;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+#youp{
+    color: #000;
+    font-size: 27px;
+/*    text-shadow: 1px 1px #fff;*/
+}
+
+/*Middle Content*/
+#middle {
+    padding-top: 80px;
+}
+
+#row2 {
+    margin-top: 20px;
+}
+
+.file {
+  visibility: hidden;
+  position: absolute;
+}
+
+/*Text Field*/
+body > div.container > form > div:nth-child(1) > div.col-md-4.col-md-offset-2 > div > div > input {
+  font-family: 'Lobster', cursive;
+}
+body > div.container > form > div:nth-child(2) > div.col-md-4.col-md-offset-2 > div > div > input {
+  font-family: 'Lobster', cursive;
+}
+body > div.container > form > div:nth-child(1) > div:nth-child(2) > div > div > input {
+  font-family: 'Lobster', cursive;
+}
+body > div.container > form > div:nth-child(2) > div:nth-child(2) > div > div > input {
+  font-family: 'Lobster', cursive;
+}
+
+button#browsecover.browse.btn.btn-primary.input-lg{
+    background-color:pink;
+    color:white;
+    border-radius: 0px;
+    font-family: 'Lobster', cursive;
+}
+button#browsemp3.browse.btn.btn-primary.input-lg{
+  background-color:pink;
+  color:white; 
+  border-radius: 0px;
+  font-family: 'Lobster', cursive;
+}
+input#upload.btn.btn-secondary.btn-lg {
+  color:white;
+  background-color: pink;
+  border-radius: 0px;
+  border : 1px solid #204d74;
+  font-family: 'Lobster', cursive;
+}
+input#upload.btn.btn-secondary.btn-lg:hover {
+  color:white;
+  background-color: purple;
+  border-radius: 0px;
+  border : 1px solid #204d74;
+  font-family: 'Lobster', cursive;
+}
+button#browsecover.browse.btn.btn-primary.input-lg:hover{
+  background-color:white;
+  color:purple; 
+  border-radius: 0px;
+  font-family: 'Lobster', cursive;
+}
+button#browsemp3.browse.btn.btn-primary.input-lg:hover{
+  background-color:white;
+  color:purple; 
+  border-radius: 0px;
+  font-family: 'Lobster', cursive;
+}
+#toLogin {
+  margin-left: 75px;
+  background-color:pink;
+  color:white; 
+  border-radius: 0px;
+  margin-top: -10px;
+  font-family: 'Lobster', cursive;
+  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-color: black;
+}
+#toLogin:hover {
+  background-color:white;
+  color:purple;  
+  font-family: 'Lobster', cursive;
+}
+body > div:nth-child(1) > div > div > div > div > div.info > div.title.oneline {
+  font-family: 'Lobster', cursive;
+}
+body > div:nth-child(1) > div > div > div > div > div.info > div.artist.oneline{
+  font-family: 'Lobster', cursive;
+  color:silver;
+}
+body > div:nth-child(1) > div > div > div > div > div.playlist > div > div.track.active > div.title.oneline{
+  font-family: 'Lobster', cursive;
+}
+body > div:nth-child(1) > div > div > div > div > div.playlist > div > div.track.active > div.artist.oneline{
+  font-family: 'Lobster', cursive;
+  color:silver;
+}
+body > div:nth-child(1) > div > div > div > div > div.playlist{
+  font-family: 'Lobster', cursive;
+}
+
+
+
+

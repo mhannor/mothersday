@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Sign In Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/login.css" rel="stylesheet">
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/the-big-picture.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="fonts/lavanderia/stylesheet.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+       <div class="col-md-6 col-md-offset-3" id="signInBox"> 
+      <form id="FormLogin" name="loginuser" class="form">
+        <h2 class="form-signin-heading">Please Sign In</h2>
+        <label for="inputEmail" name="email" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" name="password" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="remember" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" id=SignInButton type="submit" name="sub" onclick = "validate()">Sign in</button>
+      </form>
+      </div>
+      </div>
+    </div> <!-- /container -->
+
+
+              <!-- Navbar fixed bottom -->
+        <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Mommy</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li id="navlinks">
+                        <a class="navlinks" href="#">Husband</a>
+                    </li>
+                    <li class="navlinks"> 
+                        <a href="#">Sons</a>
+                    </li>
+                    <li class="navlinks">
+                        <a href="#">Daughters</a>
+                    </li>
+                    <li class="navlinks">
+                        <a href="#">Grandkids </a>
+                    </li>
+                    <li class="navlinks">
+                        <a href="#">Extended Family</a>
+                    </li>
+                    <li class="navlinks">
+                        <a href="games.html">Games</a>
+                    </li>
+                     <li class="active">
+                        <a class="navlinks" href="radio.php">Radio</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+      <!--End Nav Bar-->     
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/validation.js"></script>
+  </body>
+</html>
